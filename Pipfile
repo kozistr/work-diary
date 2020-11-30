@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = false
+
+[dev-packages]
+isort = "==5.6.4"
+black = "==20.8b1"
+pylint = "==2.6.0"
+
+[packages]
+PyPDF2 = "==1.26.0"
+
+[requires]
+python_version = "3.7"
